@@ -27,7 +27,7 @@ export default function ProjectsPage(): JSX.Element {
 			name: 'Bigbasket-Clone (E-commerce Website)',
 			description:
 				'By using this website store, users can choose their favourite Items, and to process the order.',
-			url: 'https://github.com/NarayandasGanesh/Aquashop.com/tree/main/shop',
+			url: 'https://github.com/Shivam00002/bigbasket-clone',
 			homepage: 'https://big-blow.vercel.app/',
 			icon: (
 				<Image

@@ -36,7 +36,7 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('[{"date":"4 Apr 2022 ","title":"Full Stack Web Development","description":"Masai School , Banglore (Karnataka) 4 Apr 2022 Present (Full time)","icon":"feather:briefcase","link":{"text":"Visit Masai","url":"https://www.masaischool.com/"}},{"date":"July 2019","title":"BCA ( MCU University)","description":"NMCA collage Jabalpur (Mp) July 2019 - Dec 2022","icon":"feather:award"},{"date":"15 may 2023 ","title":"SDE-1","description":"SKILZEN ED-TECH PRIVATE LIMITED 15 may 2023 Present (Full time)","icon":"feather:award","link":{"text":"Visit Skilzen Latest Product -","url":"https://dev.collegementor.com/"}}]');
+module.exports = JSON.parse('[{"date":"4 Apr 2022 ","title":"Full Stack Web Development","description":"Masai School , Banglore (Karnataka) 4 Apr 2022 Present (Full time)","icon":"feather:briefcase","link":{"text":"Visit Masai","url":"https://www.masaischool.com/"}},{"date":"July 2019","title":"BCA ( MCU University)","description":"NMCA collage Jabalpur (Mp) July 2019 - Dec 2022","icon":"feather:award"},{"date":"15 may 2023 ","title":"SDE-1","description":"SKILZEN ED-TECH PRIVATE LIMITED 15 may 2023 Present (Full time)","icon":"feather:award","link":{"text":"Visit Our Latest Product -","url":"https://dev.collegementor.com/"}}]');
 
 /***/ })
 
