@@ -7,7 +7,6 @@ import type { ListAction, Project } from '~/types';
 import Image from 'next/image';
 
 export default function ProjectsPage(): JSX.Element {
-	
 	const projects: Project[] = [
 		{
 			name: 'Google Keepes (Full stack)',
@@ -27,7 +26,7 @@ export default function ProjectsPage(): JSX.Element {
 		{
 			name: 'Bigbasket-Clone (E-commerce Website)',
 			description:
-				'By using this website store, users can choose their favourite Items, and to process the order, I have setup WhatsApp API to covert users to connet me and buy .',
+				'By using this website store, users can choose their favourite Items, and to process the order.',
 			url: 'https://github.com/NarayandasGanesh/Aquashop.com/tree/main/shop',
 			homepage: 'https://big-blow.vercel.app/',
 			icon: (
@@ -37,15 +36,23 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: [ 'Collaborative','React', 'JavaScript', 'Redux', 'CSS', 'NodeJs', 'Express', 'ChakraUi'],
+			language: [
+				'Collaborative',
+				'React',
+				'JavaScript',
+				'Redux',
+				'CSS',
+				'NodeJs',
+				'Express',
+				'ChakraUi',
+			],
 		},
 		{
 			name: 'Aqua-shop (E-commerce Website)',
 			description:
-				'This Project was a collaborative project buit by team of 5 members in 5 days. It is an E-commerce website.',
+				'This Project was a collaborative project build by team of 5 members in 5 days. It is an E-commerce website.',
 			url: 'https://github.com/NarayandasGanesh/Aquashop.com/tree/main/shop',
-			homepage:
-				'https://tranquil-granita-3b97e2.netlify.app/',
+			homepage: 'https://tranquil-granita-3b97e2.netlify.app/',
 			icon: (
 				<Image
 					src={'https://cdn-images-1.medium.com/max/1600/1*uuUl2A-aEjYm3F0Tks4Erw.png'}
@@ -53,15 +60,14 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: ['Collaborative', 'React', 'JavaScript', 'CSS','ChakraUi'],
+			language: ['Collaborative', 'React', 'JavaScript', 'CSS', 'ChakraUi'],
 		},
 		{
 			name: 'Tata Cliq-Clone (E-commerce Website)',
 			description:
-				'This Project was a collaborative project buit by team of 5 members in 5 days. It is an E-commerce website',
+				'This Project was a collaborative project build by team of 5 members in 5 days. It is an E-commerce website',
 			url: 'https://github.com/blackcode1996/Tata-Cliq-clone',
-			homepage:
-				'https://formalclick.netlify.app/',
+			homepage: 'https://formalclick.netlify.app/',
 			icon: (
 				<Image
 					src={'https://cdn-images-1.medium.com/max/1600/1*uuUl2A-aEjYm3F0Tks4Erw.png'}
@@ -69,12 +75,11 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: ['Collaborative', 'React', ,'JavaScript', 'Redux', 'CSS', 'ChakraUi'],
+			language: ['Collaborative', 'React', , 'JavaScript', 'Redux', 'CSS', 'ChakraUi'],
 		},
 		{
 			name: 'Licious-Clone ',
-			description:
-				'This is a clone of Licious with it  simple and eye-cathcing UI.',
+			description: 'This is a clone of Licious with it  simple and eye-cathcing UI.',
 			url: 'https://github.com/Shivam00002/radioactive-lip-3578',
 			homepage: 'https://subtle-piroshki-2fe672.netlify.app/',
 			icon: (
@@ -84,10 +89,8 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: [ 'Collaborative' ,'HTML', 'CSS', 'JavaScript', 'LocalStorage', ],
+			language: ['Collaborative', 'HTML', 'CSS', 'JavaScript', 'ES-6', 'LocalStorage'],
 		},
-		
-
 	];
 
 	return (

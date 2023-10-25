@@ -26,7 +26,7 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/ankitpanchaal',
+		href: 'https://github.com/Shivam00002',
 		icon: <Icon className="mr-3" icon="feather:github" />,
 		text: 'GitHub',
 	},
@@ -40,14 +40,14 @@ const ACTIONS: Array<NavigationItem> = [
 		type: NavigationItemType.LINK,
 		external: true,
 		icon: <Icon className="mr-3" icon="solar:document-bold" />,
-		href: 'https://docs.google.com/document/d/1q2IvvZ9HE8OXxETbpondCAYmf7q-IHNcU03jDbq8QMM/edit?usp=sharing',
+		href: 'https://drive.google.com/file/d/1BUuSRcrc25LMhaJbMnHJkZWzTXdpCChq/view?usp=sharing',
 		text: 'Resume',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
 		icon: <Icon className="mr-3" icon="mdi:linkedin" />,
-		href: 'https://www.linkedin.com/in/ankit-panchal-a46ba4242/',
+		href: 'https://www.linkedin.com/in/shivam-dubey-6127b4236/',
 		text: 'Linkedin',
 	},
 ];
