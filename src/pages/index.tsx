@@ -16,12 +16,7 @@ const Event = dynamic<EventProps>(
 );
 
 const ACTIONS: Array<NavigationItem> = [
-	// {
-	// 	type: NavigationItemType.LINK,
-	// 	href: '/blog',
-	// 	icon: <Icon className="mr-3" icon="feather:edit-3" />,
-	// 	text: 'Blog',
-	// },
+
 	{
 		type: NavigationItemType.LINK,
 		href: '/projects',
@@ -59,9 +54,9 @@ const ACTIONS: Array<NavigationItem> = [
 
 export default function HomePage(): JSX.Element {
 	const today = new Date();
-	const birthday = new Date('2003-02-25');
-	const isBirthday =
-		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
+	//const birthday = new Date('1999-09-07');
+	const isBirthday =  true;
+	//	today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
 	const description = `I am a software engineer & front end developer`;
 
