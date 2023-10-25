@@ -1,10 +1,10 @@
 {
 	"private": true,
-	"name": "ankit_panchal",
+	"name": "shivam_dubey",
 	"version": "2.1.1",
-	"description": "Personal Website for Ankit Panchal",
-	"repository": "https://github.com/ankitpanchaal/dev.ankit",
-	"author": "Ankit Panchal",
+	"description": "Personal Website for Shivam Dubey",
+	"repository": "https://github.com/Shivam00002/dev.shivam/",
+	"author": "Shivam Dubey",
 	"license": "MIT",
 	"prettier": {
 		"arrowParens": "always",
