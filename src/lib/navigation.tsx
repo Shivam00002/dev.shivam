@@ -15,12 +15,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Home',
 			href: '/',
 		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:edit-3',
-		// 	text: 'Blog',
-		// 	href: '/blog',
-		// },
+	
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:copy',
@@ -33,12 +28,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Exprience',
 			href: '/exprience',
 		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:link',
-		// 	text: 'Referrals',
-		// 	href: '/referrals',
-		// },
+	
 		{
 			type: NavigationItemType.LINK,
 			href: '/contact',
@@ -51,30 +41,24 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:linkedin',
 			text: 'Linkedin',
-			href: 'https://www.linkedin.com/in/ankit-panchal-a46ba4242/',
+			href: 'https://www.linkedin.com/in/shivam-dubey-6127b4236/',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:github',
 			text: 'GitHub',
-			href: 'https://github.com/ankitpanchaal',
+			href: 'https://github.com/Shivam00002',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'solar:document-bold',
 			text: 'Resume',
-			href: 'https://docs.google.com/document/d/1q2IvvZ9HE8OXxETbpondCAYmf7q-IHNcU03jDbq8QMM/edit?usp=sharing',
+			href: 'https://drive.google.com/file/d/1BUuSRcrc25LMhaJbMnHJkZWzTXdpCChq/view?usp=sharing',
 			external: true,
 		},
-		{
-			type: NavigationItemType.LINK,
-			external: true,
-			icon: "mdi:linkedin",
-			href: 'https://www.linkedin.com/in/ankit-panchal-a46ba4242/',
-			text: 'Linkedin',
-		},
+		
 	],
 ];
 
@@ -103,6 +87,7 @@ export function useNavigation(): {
 			: []),
 	];
 
+	
 	const settingsItems: NavigationItems = [
 		[
 			{

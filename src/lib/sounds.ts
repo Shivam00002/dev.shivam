@@ -18,3 +18,4 @@ export function useClick(): ReturnedValue | [() => void, null] {
 
 	return result;
 }
+

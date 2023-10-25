@@ -43,3 +43,4 @@ export function Event({ event }: EventProps): JSX.Element {
 
 	return <canvas className="fixed inset-0 z-20" ref={canvasRef} />;
 }
+

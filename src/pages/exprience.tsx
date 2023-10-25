@@ -13,28 +13,11 @@ interface TimelineProps {
 	timeline?: Timeline;
 }
 
-// export const getStaticProps: GetStaticProps<TimelineProps> = async () => {
-// 	const { default: rawTimeline } = await import('~/data/timeline.json');
-// 	const timeline = (rawTimeline as Array<TimelineEvent>).sort(
-// 		(a, b) => +new Date(b.date) - +new Date(a.date),
-// 	);
-
-// 	return {
-// 		props: {
-// 			timeline,
-// 		},
-// 	};
-// };
-
 export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): JSX.Element {
-	// const timeline = rawTimeline.map((event) => ({
-	// 	...event,
-	// 	// Note: Custom parser needed as Safari on iOS doesn't like the standard `new Date()` parsing
-	// 	date: parse(event.date.toString(), 'MM-dd-yyyy', new Date()),
-	// }));
+
 
 	return (
-		<Layout.Default seo={{ title: 'Ankit─ timeline' }}>
+		<Layout.Default seo={{ title: 'Shivam ─ timeline' }}>
 			<div className="flex flex-grow min-h-screen pt-16 pb-12">
 				<div className="flex-grow flex flex-col justify-center max-w-sm sm:max-w-2xl w-full mx-auto px-0 sm:px-16">
 					<ul className="-mb-8" role="list">
@@ -61,9 +44,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 											<h1 className="flex flex-wrap justify-between mb-2 text-gray-500 dark:text-white text-lg tracking-tight font-bold">
 												<span>{event.title}</span>
 												<span className="flex-1 sm:hidden" />
-												{/* <Pill.Date className="mt-2 sm:mt-0" small={true}>
-												</Pill.Date>
-												 */}
+											
 												<div
 													className={
 														'inline-flex justify-center w-full sm:w-auto bg-primary-500 bg-opacity-15 backdrop-filter backdrop-blur-sm saturate-200 rounded-lg text-sm text-primary-500 px-4 py-2'

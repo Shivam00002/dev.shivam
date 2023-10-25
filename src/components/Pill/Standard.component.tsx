@@ -17,3 +17,4 @@ export function Standard({ children, className, ...rest }: StandardPillProps): J
 		</div>
 	);
 }
+

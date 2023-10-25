@@ -20,3 +20,4 @@ export function DatePill({ children, className, small = false }: DatePillProps):
 		</div>
 	);
 }
+

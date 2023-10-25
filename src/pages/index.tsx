@@ -46,6 +46,14 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
+		icon: <Icon className="mr-3" icon="mdi:timer" />,
+		href: '/exprience',
+		text: 'Experience',
+	},
+
+	{
+		type: NavigationItemType.LINK,
+		external: true,
 		icon: <Icon className="mr-3" icon="mdi:linkedin" />,
 		href: 'https://www.linkedin.com/in/shivam-dubey-6127b4236/',
 		text: 'Linkedin',
@@ -54,9 +62,9 @@ const ACTIONS: Array<NavigationItem> = [
 
 export default function HomePage(): JSX.Element {
 	const today = new Date();
-	//const birthday = new Date('1999-09-07');
-	const isBirthday =  true;
-	//	today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
+	const birthday = new Date('1999-09-07');
+	const isBirthday = 
+		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
 	const description = `I am a software engineer & front end developer`;
 
@@ -74,7 +82,7 @@ export default function HomePage(): JSX.Element {
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
 						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Shivam Dubey, <br className="hidden sm:block" />{' '}
-						<Pill.Standard className="mt-4 text-[60px]">A Full Stack Developer</Pill.Standard>
+						<Pill.Standard className="mt-4 md:text-[60px]">A Full Stack Developer</Pill.Standard>
 					</Animate>
 
 					<Animate
