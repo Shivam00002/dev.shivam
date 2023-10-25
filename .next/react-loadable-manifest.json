@@ -8,9 +8,5 @@
   "../layouts/Default.layout.tsx -> ~/components/Background/Standard.component": {
     "id": "../layouts/Default.layout.tsx -> ~/components/Background/Standard.component",
     "files": []
-  },
-  "index.tsx -> ~/components/Event.component": {
-    "id": "index.tsx -> ~/components/Event.component",
-    "files": []
   }
 }

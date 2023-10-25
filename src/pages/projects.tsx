@@ -3,35 +3,18 @@ import { Layout } from '~/layouts';
 import { Animate, List } from '~/components';
 import { ListActionType } from '~/types';
 
-import type { GetStaticProps } from 'next';
-
 import type { ListAction, Project } from '~/types';
 import Image from 'next/image';
 
-// interface ProjectProps {
-// 	stringifiedProjects: string;
-// }
-
-// export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
-// 	const projects = await fetchProjects();
-
-// 	return {
-// 		props: {
-// 			stringifiedProjects: JSON.stringify(projects),
-// 		},
-// 		revalidate: 3600,
-// 	};
-// };
-
 export default function ProjectsPage(): JSX.Element {
-	// const projects = JSON.parse(stringifiedProjects) as Array<Project>;
+	
 	const projects: Project[] = [
 		{
-			name: 'Note Keeper (Full stack)',
+			name: 'Google Keepes (Full stack)',
 			description:
 				'By using this web app, users can create notes and access them from anywhere because the data is uploaded to the cloud.',
-			url: 'https://github.com/ankitpanchaal/note-keeper',
-			homepage: 'https://notes-keeper-task.vercel.app/',
+			url: 'https://github.com/Shivam00002/google-keeps',
+			homepage: 'https://google-keeps-lovat.vercel.app/',
 			icon: (
 				<Image
 					src={'https://cdn-icons-png.flaticon.com/128/2965/2965358.png'}
@@ -42,11 +25,11 @@ export default function ProjectsPage(): JSX.Element {
 			language: ['Next.js 13', 'GraphQL', 'Apollo Client', 'Tailwind CSS', 'Typescript'],
 		},
 		{
-			name: 'Anime T-Shirts (E-commerce Web App)',
+			name: 'Bigbasket-Clone (E-commerce Website)',
 			description:
-				'By using this website store, users can choose their favourite anime T-shirts, and to process the order, I have setup WhatsApp API to covert users to connet me and buy .',
-			url: 'https://github.com/ankitpanchaal/AnimeStore',
-			homepage: 'https://anime-t-shirts.vercel.app/',
+				'By using this website store, users can choose their favourite Items, and to process the order, I have setup WhatsApp API to covert users to connet me and buy .',
+			url: 'https://github.com/NarayandasGanesh/Aquashop.com/tree/main/shop',
+			homepage: 'https://big-blow.vercel.app/',
 			icon: (
 				<Image
 					src={'https://cdn-images-1.medium.com/max/1600/0*jZE_N0ak40Vl3rLf.png'}
@@ -54,15 +37,15 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: ['Next.js 13', 'Sanity.io', 'GROQ query', 'Tailwind CSS', 'Typescript'],
+			language: [ 'Collaborative','React', 'JavaScript', 'Redux', 'CSS', 'NodeJs', 'Express', 'ChakraUi'],
 		},
 		{
-			name: 'Easy Salon (Client Side -  Mobile App)',
+			name: 'Aqua-shop (E-commerce Website)',
 			description:
-				'A slot booking app where people can book their slots at registered salons. The app will save users time and serve as a guide for customers looking to book appointments at the best salons. Customers can also see the service price and salon ratings.',
-			url: '/private-code',
+				'This Project was a collaborative project buit by team of 5 members in 5 days. It is an E-commerce website.',
+			url: 'https://github.com/NarayandasGanesh/Aquashop.com/tree/main/shop',
 			homepage:
-				'https://drive.google.com/file/d/1zo3BOYHIFjlSAQn6jBcY-2L0szgnVTwo/view?usp=sharing',
+				'https://tranquil-granita-3b97e2.netlify.app/',
 			icon: (
 				<Image
 					src={'https://cdn-images-1.medium.com/max/1600/1*uuUl2A-aEjYm3F0Tks4Erw.png'}
@@ -70,15 +53,15 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: ['React Native', 'GraphQl API', 'Apollo Client', 'Typescript'],
+			language: ['Collaborative', 'React', 'JavaScript', 'CSS','ChakraUi'],
 		},
 		{
-			name: 'Easy Salon (Vendor Side - Mobile App)',
+			name: 'Tata Cliq-Clone (E-commerce Website)',
 			description:
-				'A service provider app where salon owners can list their services and get the orders from interested customers.',
-			url: '/private-code',
+				'This Project was a collaborative project buit by team of 5 members in 5 days. It is an E-commerce website',
+			url: 'https://github.com/blackcode1996/Tata-Cliq-clone',
 			homepage:
-				'https://drive.google.com/file/d/1zo3BOYHIFjlSAQn6jBcY-2L0szgnVTwo/view?usp=sharing',
+				'https://formalclick.netlify.app/',
 			icon: (
 				<Image
 					src={'https://cdn-images-1.medium.com/max/1600/1*uuUl2A-aEjYm3F0Tks4Erw.png'}
@@ -86,14 +69,14 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: ['React Native', 'GraphQl API', 'Apollo Client', 'Typescript'],
+			language: ['Collaborative', 'React', ,'JavaScript', 'Redux', 'CSS', 'ChakraUi'],
 		},
 		{
-			name: 'I-Sneakers (E-commerce Web App)',
+			name: 'Licious-Clone ',
 			description:
-				' An online platform where I can sell shoes world wide. In this website, users can easily make orders and can search or filter the products by their categories.',
-			url: 'https://github.com/ankitpanchaal/isneaker-nextjs',
-			homepage: 'https://isneakers.vercel.app/',
+				'This is a clone of Licious with it  simple and eye-cathcing UI.',
+			url: 'https://github.com/Shivam00002/radioactive-lip-3578',
+			homepage: 'https://subtle-piroshki-2fe672.netlify.app/',
 			icon: (
 				<Image
 					src={'https://cdn-images-1.medium.com/max/1600/0*tfVXz6dFq7ksnK5E.jpg'}
@@ -101,54 +84,14 @@ export default function ProjectsPage(): JSX.Element {
 					width={48}
 				/>
 			),
-			language: ['Next.js 13', 'Stripe', ' React.js', 'Sanity.io', 'GROQ query', 'SCSS'],
+			language: [ 'Collaborative' ,'HTML', 'CSS', 'JavaScript', 'LocalStorage', ],
 		},
-		{
-			name: 'Tree Store (Web App)',
-			description:
-				'I designed this website for a college hackathon competition and secured the second position. The competition had a nature theme, and I created a visually appealing, responsive frontend for the website.',
-			url: 'https://github.com/ankitpanchaal/svim-hackaton',
-			homepage: 'https://svim-hackaton.vercel.app/',
-			icon: (
-				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/0*H3QnDrsDAq7PGUN7'}
-					height={50}
-					width={48}
-				/>
-			),
-			language: ['Next.js 13', ' React.js', 'Tailwind CSS', 'Typescript'],
-		},
-		{
-			name: 'Recipe APP (Mobile App)',
-			description: 'Used the edamam API to get recipes and integrate with the frontend',
-			url: 'https://github.com/ankitpanchaal/Recipe',
-			icon: (
-				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/0*8gbftLka9-UG8efM.jpg'}
-					height={50}
-					width={48}
-				/>
-			),
-			language: ['React Native', 'Expo', 'Edamam Rest API'],
-		},
-		{
-			name: 'NFT APP (Mobile App)',
-			description: 'Desinged Cool Front-end Mobile UI using react native',
-			url: 'https://github.com/ankitpanchaal/NFT',
-			homepage: 'https://youtube.com/shorts/YwiT7VxjSHY?feature=shared',
-			icon: (
-				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/0*4CvV4KMOt91jRa_4'}
-					height={50}
-					width={48}
-				/>
-			),
-			language: ['React Native', 'Expo'],
-		},
+		
+
 	];
 
 	return (
-		<Layout.Default seo={{ title: 'Ankit─ projects' }}>
+		<Layout.Default seo={{ title: 'Shivam ─ projects' }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
