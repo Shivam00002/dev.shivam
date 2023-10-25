@@ -79,10 +79,10 @@ export default function HomePage(): JSX.Element {
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
+						className="text-gray-500 dark:text-white text-[40px] sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
 						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Shivam Dubey, <br className="hidden sm:block" />{' '}
-						<Pill.Standard className="mt-4 md:text-[60px]">A Full Stack Developer</Pill.Standard>
+						<Pill.Standard className="md:mt-4 text-[25px] md:text-[60px]">A Full Stack Developer</Pill.Standard>
 					</Animate>
 
 					<Animate
