@@ -55,7 +55,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'solar:document-bold',
 			text: 'Resume',
-			href: 'https://drive.google.com/file/d/1BUuSRcrc25LMhaJbMnHJkZWzTXdpCChq/view?usp=sharing',
+			href: 'https://drive.google.com/file/d/1SRRiyqfggU3LMpCVhJmz8tC2Sn7JifsS/view?usp=sharing',
 			external: true,
 		},
 		
