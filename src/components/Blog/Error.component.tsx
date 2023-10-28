@@ -10,6 +10,7 @@ interface ErrorProps {
 export function Error({ routeBlog = true }: ErrorProps): JSX.Element {
 	return (
 		<Layout.Error>
+			
 			<div className="flex flex-grow min-h-full pt-16 pb-12">
 				<div className="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="flex-shrink-0 flex justify-center">
