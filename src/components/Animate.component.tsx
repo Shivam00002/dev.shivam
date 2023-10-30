@@ -22,6 +22,7 @@ const defaultTransition: AnimationOptionsWithOverrides = {
 	repeat: 0,
 };
 
+
 export function Animate<T extends ElementType>({
 	animation,
 	as: Component = 'div' as T,
@@ -29,6 +30,7 @@ export function Animate<T extends ElementType>({
 	enabled = true,
 	transition,
 	...rest
+	
 }: AnimateProps<T>): JSX.Element {
 	const { animations } = usePersistantState().get();
 	const prefersReducedMotion = useMedia('(prefers-reduced-motion)', true);

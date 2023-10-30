@@ -19,6 +19,7 @@ export function Standard(): JSX.Element {
 			alpha: true,
 		});
 
+		
 		const gl = renderer.gl;
 
 		const camera = new Camera(gl, {
