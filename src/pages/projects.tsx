@@ -26,7 +26,7 @@ export default function ProjectsPage(): JSX.Element {
 
 
 		{
-			name: 'ShoeVista (E-commerce Website)',
+			name: 'ShoeVista ',
 			description:
 				'By using this website store, users can choose their favourite footware, and to process the order.',
 			url: 'https://github.com/Shivam00002/shoevista',
