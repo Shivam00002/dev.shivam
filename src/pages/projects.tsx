@@ -24,7 +24,6 @@ export default function ProjectsPage(): JSX.Element {
 			language: ['Next.js 13', 'GraphQL', 'Apollo Client', 'Tailwind CSS', 'Typescript'],
 		},
 
-
 		{
 			name: 'ShoeVista ',
 			description:
@@ -33,23 +32,33 @@ export default function ProjectsPage(): JSX.Element {
 			homepage: 'https://shoevista.vercel.app/',
 			icon: (
 				<Image
-					src={'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzfGVufDB8fDB8fHww'}
+					src={
+						'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzfGVufDB8fDB8fHww'
+					}
 					height={48}
 					width={48}
 				/>
 			),
-			language: [
-				
-				'Next.js 13',
-				'TypeScript',
-				'Tailwind css',
-				
-			],
+			language: ['Next.js 13', 'TypeScript', 'Tailwind css'],
 		},
 
-
-
-
+		{
+			name: 'Webinar',
+			description:
+				'By using this website users can choose their favourite webinar and book slot.',
+			url: 'https://github.com/Shivam00002/webinar',
+			homepage: 'https://webinar-ten.vercel.app/',
+			icon: (
+				<Image
+					src={
+						'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzfGVufDB8fDB8fHww'
+					}
+					height={48}
+					width={48}
+				/>
+			),
+			language: ['Next.js 13', 'TypeScript', 'Tailwind css', 'Express JS', 'Mongo Db'],
+		},
 
 		{
 			name: 'Bigbasket-Clone (E-commerce Website)',
@@ -75,10 +84,6 @@ export default function ProjectsPage(): JSX.Element {
 				'ChakraUi',
 			],
 		},
-
-
-
-
 
 		{
 			name: 'Aqua-shop (E-commerce Website)',
