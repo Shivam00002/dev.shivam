@@ -12,6 +12,7 @@ interface DefaultProps extends WithClassName, WithChildren {
 	icon?: string;
 }
 
+
 type StandardProps =
 	| ({
 			type: NavigationItemType.ACTION;
