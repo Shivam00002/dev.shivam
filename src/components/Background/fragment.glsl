@@ -5,6 +5,7 @@ uniform vec3 uColor;
 
 varying vec4 vRandom;
 
+
 void main() {
 	vec2 uv = gl_PointCoord.xy;
 	
