@@ -40,7 +40,7 @@ const ACTIONS: Array<NavigationItem> = [
 		type: NavigationItemType.LINK,
 		external: true,
 		icon: <Icon className="mr-3" icon="solar:document-bold" />,
-		href: 'https://drive.google.com/file/d/1SRRiyqfggU3LMpCVhJmz8tC2Sn7JifsS/view?usp=sharing',
+		href: 'https://drive.google.com/file/d/1nH7FwWqDoBbNcKjC6rHY1ojSy9tPQXsq/view?usp=sharing',
 		text: 'Resume',
 	},
 	{
