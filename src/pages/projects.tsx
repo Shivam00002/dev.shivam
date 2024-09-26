@@ -13,15 +13,23 @@ export default function ProjectsPage(): JSX.Element {
 			description:
 				'By using this web app, users can create notes and access them from anywhere because the data is uploaded to the cloud.',
 			url: 'https://github.com/Shivam00002/google-keeps',
-			homepage: 'https://google-keeps-lovat.vercel.app/',
+			homepage: 'https://google-keeps-three.vercel.app/',
 			icon: (
 				<Image
-					src={'https://cdn-icons-png.flaticon.com/128/2965/2965358.png'}
+					src={'https://e7.pngegg.com/pngimages/704/688/png-clipart-google-google.png'}
 					height={48}
 					width={48}
 				/>
 			),
-			language: ['Next.js 13', 'GraphQL', 'Apollo Client', 'Tailwind CSS', 'Typescript'],
+			language: [
+				'React.js',
+				'Express.js',
+				'Firebase admin-SDK',
+				'Tailwind CSS',
+				'Typescript',
+				'Node.js',
+				'MongoDb',
+			],
 		},
 
 		{
@@ -33,13 +41,31 @@ export default function ProjectsPage(): JSX.Element {
 			icon: (
 				<Image
 					src={
-						'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzfGVufDB8fDB8fHww'
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pWafZ0JwWBLGBprZTcHjc8ROd2pLfqocIA&s'
 					}
 					height={48}
 					width={48}
 				/>
 			),
 			language: ['Next.js 13', 'TypeScript', 'Tailwind css'],
+		},
+
+		{
+			name: 'Shadcn Dashboard',
+			description:
+				'By using this website users can choose their favourite webinar and book slot.',
+			url: 'https://github.com/Shivam00002/react-dashboard',
+			homepage: 'https://react-dashboard-eight-ashy.vercel.app',
+			icon: (
+				<Image
+					src={
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOVEp_HYIMWVJBHgCIz3gOi2Jt4A8ueLvuA&s'
+					}
+					height={48}
+					width={48}
+				/>
+			),
+			language: ['React-Vite', 'TypeScript', 'Tailwind css', 'Shadcn'],
 		},
 
 		{
@@ -51,7 +77,7 @@ export default function ProjectsPage(): JSX.Element {
 			icon: (
 				<Image
 					src={
-						'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNob2VzfGVufDB8fDB8fHww'
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpmcIulRb9kJJXv4vfhmNkx0wFnLnXRWtEQ&s'
 					}
 					height={48}
 					width={48}
@@ -68,7 +94,9 @@ export default function ProjectsPage(): JSX.Element {
 			homepage: 'https://big-blow.vercel.app/',
 			icon: (
 				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/0*jZE_N0ak40Vl3rLf.png'}
+					src={
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ypR2KCJIrOOayN2utw7WTu5nr2RR8Wjp-w&s'
+					}
 					height={48}
 					width={48}
 				/>
@@ -93,7 +121,9 @@ export default function ProjectsPage(): JSX.Element {
 			homepage: 'https://tranquil-granita-3b97e2.netlify.app/',
 			icon: (
 				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/1*uuUl2A-aEjYm3F0Tks4Erw.png'}
+					src={
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNml9rYcq7-Mons108l6IletjpwjNAIhPhPg&s'
+					}
 					height={40}
 					width={48}
 				/>
@@ -108,7 +138,9 @@ export default function ProjectsPage(): JSX.Element {
 			homepage: 'https://formalclick.netlify.app/',
 			icon: (
 				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/1*uuUl2A-aEjYm3F0Tks4Erw.png'}
+					src={
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKrPaK3pU1Q1sQIIcgRDiAIqFOKo0Mkgfjw&s'
+					}
 					height={40}
 					width={48}
 				/>
@@ -122,7 +154,9 @@ export default function ProjectsPage(): JSX.Element {
 			homepage: 'https://subtle-piroshki-2fe672.netlify.app/',
 			icon: (
 				<Image
-					src={'https://cdn-images-1.medium.com/max/1600/0*tfVXz6dFq7ksnK5E.jpg'}
+					src={
+						'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb8vpugTdWVzgmZ0VVDcja_WI6kGSmngaDqQ&s'
+					}
 					height={50}
 					width={48}
 				/>
